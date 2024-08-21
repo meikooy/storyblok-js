@@ -1,5 +1,5 @@
 {
-  "name": "@meiko/storyblok-js",
+  "name": "@storyblok/js",
   "version": "2.0.6",
   "description": "SDK to integrate Storyblok into your project using JavaScript.",
   "main": "./dist/storyblok-js.js",
@@ -28,8 +28,7 @@
     "prepublishOnly": "npm run build && cp ../README.md ./"
   },
   "dependencies": {
-    "@storyblok/richtext": "^1.0.0",
-    "storyblok-js-client": "^6.9.0-next.1"
+    "storyblok-js-client": "^6.8.3"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.6",
@@ -77,13 +76,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meikooy/storyblok-js"
+    "url": "https://github.com/storyblok/storyblok-js"
   },
   "author": "Storyblok",
   "bugs": {
-    "url": "https://github.com/meikooy/storyblok-js/issues"
+    "url": "https://github.com/storyblok/storyblok-js/issues"
   },
-  "homepage": "https://github.com/meikooy/storyblok-js",
+  "homepage": "https://github.com/storyblok/storyblok-js",
   "publishConfig": {
     "access": "public"
   }
